@@ -7,7 +7,13 @@ MASTER_EXCEL_URL = "https://docs.google.com/spreadsheets/d/e/2PACX-1vThZUTmAOchx
 
 EXAM_TABS = {
     "C_DBADM_2404 (HANA DB)": "DBADM",
-    "C_CPI_2506 (Integration Suite)": "CPI"
+    "C_CPI_2506 (Integration Suite)": "CPI",
+    "KCNA1": "KCNA1",
+    "KCNA2": "KCNA2",
+    "KCNA3": "KCNA3",
+    "KCNA4": "KCNA4",
+    "KCNA5": "KCNA5",
+    "KCNA6": "KCNA6"
 }
 
 # --- DATA LOADING ---
