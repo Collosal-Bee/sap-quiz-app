@@ -1,4 +1,4 @@
-# 🎓 Enterprise SAP Certification Testing Engine
+# 🎓 Enterprise SAP and KCNA Certification Testing Engine
 
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://sap-quiz.streamlit.app/)
 
@@ -6,7 +6,7 @@
 [![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white)](#)
 [![SAP](https://img.shields.io/badge/SAP-0FAAFF?style=for-the-badge&logo=sap&logoColor=white)](#)
 
-A stateful, cloud-deployed testing engine designed to help professionals prepare for complex enterprise certifications, specifically **SAP HANA Database (C_DBADM)** and **SAP Integration Suite (C_CPI)**. 
+A stateful, cloud-deployed testing engine designed to help professionals prepare for complex enterprise certifications, specifically **SAP HANA Database (C_DBADM)**, **SAP Integration Suite (C_CPI)** and **KCNA (Kubernetes and Cloud Native Associate)**. 
 
 This application simulates the strict, multi-select logic of actual SAP exams while utilizing a decoupled data architecture to ensure the question banks remain continuously updated without requiring code redeployments.
 
@@ -22,7 +22,7 @@ Streamlit operates on a continuous rerun paradigm, which usually destroys user p
 Enterprise exams frequently utilize "Select all that apply" questions. The backend dynamically intercepts the delimiter (`str.split(';')`) from the dataset, calculates the required `set()` array, and evaluates the user's boolean checkbox inputs against the strictly defined correct subset.
 
 ## 🚀 How It Works
-1. **Select Domain:** The user selects their target SAP certification from the sidebar.
+1. **Select Domain:** The user selects their target SAP or KCNA certification from the sidebar.
 2. **Dynamic Ingestion:** The app fetches the live dataset, shuffles the question deck, and randomizes the order of the multiple-choice options to prevent pattern memorization.
 3. **Evaluation:** Upon submission, the UI locks the inputs and provides immediate, context-aware feedback (Correct vs. Incorrect) alongside the required answers.
 
